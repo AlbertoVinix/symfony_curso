@@ -1,0 +1,160 @@
+{
+    "post": [
+        {
+            "id": 1,   
+            "zipcode": "90210",
+            "location_id": "1764",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Beverly Hills, 465 N. Roxbury Dr. Suite 715",
+            "address": "465 N. Roxbury Dr. Suite 715",
+            "city": "Beverly Hills",
+            "state": "CA",
+            "lat": "34.068169",
+            "lng": "-118.407462"
+        },
+        {
+            "id": 2,
+            "zipcode": "91505",
+            "location_id": "1766",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Burbank, 2701 W Alameda Ave Ste 203",
+            "address": "2701 W Alameda Ave Ste 203",
+            "city": "Burbank",
+            "state": "CA",
+            "lat": "34.15747",
+            "lng": "-118.33042"
+        },
+        {
+            "id": 3,
+            "zipcode": "91405",
+            "location_id": "1768",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Van Nuys, 15211 Vanowen St Ste 319",
+            "address": "15211 Vanowen St Ste 319",
+            "city": "Van Nuys",
+            "state": "CA",
+            "lat": "34.19393",
+            "lng": "-118.46412"
+        },
+        {
+            "id": 4,
+            "zipcode": "75231",
+            "location_id": "1769",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 8160 Walnut Hill Ln #216",
+            "address": "8160 Walnut Hill Ln #216",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.881768",
+            "lng": "-96.764145"
+        },
+        {
+            "id": 5,
+            "zipcode": "75231",
+            "location_id": "1770",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 8220 Walnut Hill Ln Ste 503",
+            "address": "8220 Walnut Hill Ln Ste 503",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.883269",
+            "lng": "-96.762241"
+        },
+        {
+            "id": 6,
+            "zipcode": "75231",
+            "location_id": "1771",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 8305 Walnut Hill #220",
+            "address": "8305 Walnut Hill #220",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.884426",
+            "lng": "-96.761388"
+        },
+        {
+            "id": 7,
+            "zipcode": "75230",
+            "location_id": "1772",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 7777 Forest Ln Bldg A Ste 105",
+            "address": "7777 Forest Ln Bldg A Ste 105",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.909444",
+            "lng": "-96.772077"
+        },
+        {
+            "id": 8,
+            "zipcode": "75246",
+            "location_id": "1773",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 3801 Gaston Ave Ste 104",
+            "address": "3801 Gaston Ave Ste 104",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.79205",
+            "lng": "-96.77909"
+        },
+        {
+            "id": 9,
+            "zipcode": "75246",
+            "location_id": "1774",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Dallas, 3600 Gaston Ave #730",
+            "address": "3600 Gaston Ave #730",
+            "city": "Dallas",
+            "state": "TX",
+            "lat": "32.790918",
+            "lng": "-96.780412"
+        },
+        {
+            "id": 10,
+            "zipcode": "75042",
+            "location_id": "1778",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Garland, 325 N Shiloh Rd #101",
+            "address": "325 N Shiloh Rd #101",
+            "city": "Garland",
+            "state": "TX",
+            "lat": "32.9148889",
+            "lng": "-96.6653639"
+        },
+        {
+            "id": 11,
+            "zipcode": "75080",
+            "location_id": "1779",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Richardson, 399 W. Campbell Rd Ste 210",
+            "address": "399 W. Campbell Rd Ste 210",
+            "city": "Richardson",
+            "state": "TX",
+            "lat": "32.975349",
+            "lng": "-96.725456"
+        },
+        {
+            "id": 12,
+            "zipcode": "90015",
+            "location_id": "1781",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Los Angeles, 1400 S. Grand Ave. Suite 612",
+            "address": "1400 S. Grand Ave. Suite 612",
+            "city": "Los Angeles",
+            "state": "CA",
+            "lat": "34.0368416",
+            "lng": "-118.2652246"
+        },
+        {
+            "id": 13,
+            "zipcode": "91101",
+            "location_id": "1782",
+            "laboratory": "LabCorp",
+            "name": "Labcorp, Pasadena, 221 E. Walnut St. Suite 248",
+            "address": "221 E. Walnut St. Suite 248",
+            "city": "Pasadena",
+            "state": "CA",
+            "lat": "34.1499595",
+            "lng": "-118.1455418"
+        }
+    ]
+}
