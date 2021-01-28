@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block contenedor_principal %}
+    <div class="row" >
+            <h1> Categorias </h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th> Nombre </th>
+                        <th> Color </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cate in categorias %}
+                        <tr>
+                            <td> {{ cate.nombre }} </td>
+                            <td> {{ cate.color }} </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+    </div>
+{% endblock %}
