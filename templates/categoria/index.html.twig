@@ -1,23 +1,43 @@
 {% extends 'base.html.twig' %}
 
 {% block contenedor_principal %}
-    <div class="row" >
-            <h1> Categorias </h1>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th> Nombre </th>
-                        <th> Color </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for cate in categorias %}
-                        <tr>
-                            <td> {{ cate.nombre }} </td>
-                            <td> {{ cate.color }} </td>
-                        </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-    </div>
+	<div class="row">
+		{% include "comunes/_mensajes.html.twig" %}
+		<h1>
+			Categorias
+		</h1>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						Nombre
+					</th>
+					<th>
+						Color
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for cate in categorias %}
+					<tr>
+						<td>
+							{{ cate.nombre }}
+						</td>
+						<td>
+							{{ cate.color }}
+						</td>
+						<td>
+							<a class="btn btn-link" href="{{ path('app_editar_categoria', {'id': cate.id}) }}">
+								Editar
+							</a>
+							<a class="btn btn-link" href="{{ path('app_eliminar_categoria', {'id': cate.id}) }}">
+								Eliminar
+							</a>
+						</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
 {% endblock %}

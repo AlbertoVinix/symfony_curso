@@ -59,4 +59,47 @@ class CategoriaController extends AbstractController
             'categoria' => $categoria,
         ]);
     }
+
+    /**
+        * @Route("/{id}/editar", name="app_editar_categoria")
+    */
+    public function editar(Categoria $categoria, EntityManagerInterface $entityManager ,Request $request): Response
+    {
+        if( $this->isCsrfTokenValid('categoria', $request->request->get('_token')) ) {
+            $nombre = $request->request->get('nombre', null);
+            $color  = $request->request->get('color', null);
+            $categoria->setNombre($nombre);
+            $categoria->setColor($color);
+            if($nombre && $color) {
+                $entityManager->persist($categoria);
+                $entityManager->flush();
+                $this->addFlash('success', 'Categoria editada');
+                return $this->redirectToRoute('app_listado_categoria');
+            } else {
+                if( !$nombre ) {
+                    $this->addFlash('danger', 'Falta nombre');
+                }
+                if( !$color ) {
+                    $this->addFlash('danger', 'Falta color');
+                }
+            }
+        }
+
+        return $this->render('categoria/editar.html.twig', [
+            'categoria' => $categoria,
+        ]);
+    }
+
+    /**
+        * @Route("/{id}/eliminar", name="app_eliminar_categoria")
+    */
+    public function eliminar(Categoria $categoria, Request $request): Response
+    {
+        $entityManager = $this->getDoctrine()->getManager();
+        $entityManager->remove($categoria);
+        $entityManager->flush();
+        $this->addFlash('success', 'Eliminada categoria');
+        
+        return $this->redirectToRoute('app_listado_categoria');
+    }
 }
